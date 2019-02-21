@@ -1,0 +1,23 @@
+//global setup
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Sarabun-light';
+	background-color: #eee;
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+
+	.content {
+		overflow: scroll;
+		padding: 20px;
+	}
+}

@@ -1,0 +1,39 @@
+.side-menu {
+	// border: 1px solid black;
+	padding: 20px 0 20px 20px;
+	background: $black;
+	color: $white;
+
+	&--title {
+		font-family: 'Sarabun-bold';
+		font-size: 3rem;
+		font-weight: bold;
+		text-align: center;
+		padding-right: 20px;
+	}
+	&--list {
+		padding-left: 0;
+		list-style: none;
+		font-size: 2.5rem;
+		text-align: center;
+		font-weight: bold;
+	}
+	&--item {
+		padding: 2.3rem;
+		a {
+			color: $white;
+		}
+		&__drinks {
+			background-color: $dark-blue;
+		}
+		&__sandwich {
+			background-color: $red;
+		}
+		&__pizza {
+			background-color: $light-orange;
+		}
+		&__dessert {
+			background-color: $light-blue;
+		}
+	}
+}
