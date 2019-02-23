@@ -21,3 +21,9 @@ body {
 		padding: 20px;
 	}
 }
+.section {
+	display: none;
+	&.active {
+		display: block;
+	}
+}

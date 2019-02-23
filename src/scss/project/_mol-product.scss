@@ -1,0 +1,16 @@
+.product {
+  display: flex;
+  &--description {
+    padding: 10px;
+  }
+  &--image {
+    margin-bottom: 0;
+    img {
+      max-width: 100%;
+    }
+  }
+  &--title {
+    font-family: 'Sarabun-light';
+    font-weight: bold;
+  }
+}

@@ -3,6 +3,7 @@
 	padding: 20px 0 20px 20px;
 	background: $black;
 	color: $white;
+	max-width: 320px;
 
 	&--title {
 		font-family: 'Sarabun-bold';
@@ -19,7 +20,7 @@
 		font-weight: bold;
 	}
 	&--item {
-		padding: 2.3rem;
+		padding: 2.1rem;
 		a {
 			color: $white;
 		}

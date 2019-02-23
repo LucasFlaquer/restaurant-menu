@@ -3,14 +3,14 @@
   font-family: 'Sarabun-Bold';
   font-style: normal;
   font-weight: bold;
-  src: url("fonts/Sarabun-Bold.ttf");
+  src: url("../fonts/Sarabun-Bold.ttf");
 }
 
 @font-face {
   font-family: 'Sarabun-Bolder';
   font-style: normal;
   font-weight: bolder;
-  src: url("fonts/Sarabun-ExtraBold.ttf");
+  src: url("../fonts/Sarabun-ExtraBold.ttf");
 }
 
 
@@ -19,4 +19,10 @@
   font-style: normal;
   font-weight: bolder;
   src: url("../fonts/Sarabun-light.ttf");
+}
+@font-face {
+  font-family: 'Sarabun-Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Sarabun-Light.ttf");
 }
